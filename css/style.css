@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wrapper {
-  background: url("../img/background/bgc.jpg");
+  background: url("../img/background/bgc.jpg") repeat-y;
   min-height: 100%;
   width: 100%;
   overflow: hidden;
