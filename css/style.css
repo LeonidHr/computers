@@ -114,6 +114,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto";
 }
 
+@media (max-width: 991.98px) {
+  .wrapper {
+    background: #0f0f0f;
+  }
+}
 .title {
   font-weight: 700;
   line-height: 1.4;
@@ -514,6 +519,18 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
 }
 .progress__line::-webkit-progress-bar {
+  background-color: #fff;
+}
+.progress__line::-moz-progress-value {
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+.progress__line::-moz-progress-bar {
+  background-color: #fff;
+}
+.progress__line::-ms-progress-value {
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+.progress__line::-ms-progress-bar {
   background-color: #fff;
 }
 .progress__row {

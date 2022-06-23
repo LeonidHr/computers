@@ -34,6 +34,12 @@ $md4: 519.98px;
   flex-direction: column;
   font-family: 'Roboto'
 }
+
+@media (max-width: $md2){
+  .wrapper {
+    background: #0f0f0f
+  }
+}
 // general styles ================================================
 @import 'generalStyles';
 
